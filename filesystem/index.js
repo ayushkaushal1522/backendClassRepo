@@ -18,6 +18,35 @@ fs.writeFile("def.txt" ,data2 ,
 })
 
 //options is marzii daalo yaa fir na daalo
+// fs.readFile("abc.txt" ,{
+//     encoding:"utf-8",
+//     flag:'r'
+// } ,(error , data)=>{
+
+//     if(error) throw error;
+//     console.log(data);
+
+        
+// })
+
+
+// fs.readFile("def.txt" ,{
+   
+// } ,(error , data)=>{
+
+//     if(error) throw error;
+//     console.log(data.toString());
+
+        
+// })
+
+fs.appendFile("abc.txt" , "Hello bsd waaloon " , {} ,(error)=>{
+
+
+        if(error) throw error;
+        console.log("File Updated Successfully");
+})
+
 fs.readFile("abc.txt" ,{
     encoding:"utf-8",
     flag:'r'
@@ -27,24 +56,6 @@ fs.readFile("abc.txt" ,{
     console.log(data);
 
         
-})
-
-
-fs.readFile("def.txt" ,{
-   
-} ,(error , data)=>{
-
-    if(error) throw error;
-    console.log(data.toString());
-
-        
-})
-
-fs.appendFile("abc.txt" , "file ystem is updated" , {} ,(error)=>{
-
-
-        if(error) throw error;
-        console.log("File Updated Successfully");
 })
 
 // fs.unlink("abc.txt" ,(error)=>{

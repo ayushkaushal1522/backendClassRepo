@@ -13,7 +13,7 @@ const app = express()
 // })
 
 // right approach  of making the routes
-
+//req.body() se data fetch karne ke liye middleware sue karna padta hai.
 
 app.get("/r/:subredits",(req,res)=>{
     let {subredits}  = req.params;

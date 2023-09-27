@@ -26,10 +26,11 @@ app.get("/dog" , (req,res)=>{
 
 
 // defualt Route
-app.get("*" , (req,res)=>{
-    console.log("Error");
-    res.send("Error Sahi code likh BC")
-})
+//default route is represented using the * in the address box.
+// app.get("*" , (req,res)=>{
+//     console.log("Error");
+//     res.send("Error Sahi code likh BC")
+// })
 
 
 

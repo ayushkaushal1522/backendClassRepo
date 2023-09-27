@@ -5,7 +5,7 @@ const app = express()
 
 app.use((req , res)=>{
     console.log("Hello Everyone");
-    console.log(req);
+    // console.log(req);
     res.send("Ayush kaushal is an industrious boy")
 })
 
